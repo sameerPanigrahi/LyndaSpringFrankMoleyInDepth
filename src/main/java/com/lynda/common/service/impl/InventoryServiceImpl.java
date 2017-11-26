@@ -6,6 +6,9 @@ import com.lynda.common.service.InventoryService;
 
 import java.util.Map;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class InventoryServiceImpl implements InventoryService {
     private final InventoryItemRepository inventoryItemRepository;
 

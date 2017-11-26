@@ -9,6 +9,9 @@ import com.lynda.common.service.OrderService;
 
 import java.util.Map;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class OrderServiceImpl implements OrderService {
     private final InventoryService inventoryService;
     private final CustomerRepository customerRepository;
